@@ -6,7 +6,7 @@ from PIL import Image
 import io
 
 app = Flask(__name__)
-model = load_model("potatoes.keras")
+model = load_model("potatoes.h5")
 
 # You can modify this list based on your actual classes
 class_names = ['Early Blight', 'Late Blight', 'Healthy']
